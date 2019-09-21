@@ -4604,6 +4604,16 @@ public final class Settings {
         /**
          * @hide
          */
+        public static final String REVENGEOS_SMART_CHARGING = "revengeos_smart_charging";
+
+        /**
+         * @hide
+         */
+        public static final String REVENGEOS_SMART_CHARGING_LEVEL = "revengeos_smart_charging_level";
+
+        /**
+         * @hide
+         */
         public static final String OMNI_QS_QUICKBAR_COLUMNS = "qs_quickbar_columns";
 
         /** @hide */
