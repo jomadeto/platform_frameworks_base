@@ -34,6 +34,12 @@
     <string name="quick_settings_sound_ring">Tono de llamada</string>
     <string name="quick_settings_sound_vibrate">Vibración</string>
     <string name="quick_settings_sound_dnd">No molestar</string>
+    <!-- CPUInfo tile -->
+    <string name="quick_settings_cpuinfo_label">Información de CPU</string>
+    <string name="accessibility_quick_settings_cpuinfo_off">Información de CPU off</string>
+    <string name="accessibility_quick_settings_cpuinfo_on">Información de CPU on</string>
+    <string name="accessibility_quick_settings_cpuinfo_changed_off">Información de CPU apagada</string>
+    <string name="accessibility_quick_settings_cpuinfo_changed_on">Información de CPU encendida</string>
     <!-- Shows when people have clicked on the custom lockscreen shortcut [CHAR LIMIT=60] -->
     <string name="custom_hint">Desliza el icono para abrir</string>
     <string name="status_bar_vpn">VPN</string>

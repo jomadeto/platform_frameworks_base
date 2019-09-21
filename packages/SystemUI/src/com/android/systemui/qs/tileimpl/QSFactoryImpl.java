@@ -33,6 +33,7 @@ import com.android.systemui.qs.tiles.BatterySaverTile;
 import com.android.systemui.qs.tiles.BluetoothTile;
 import com.android.systemui.qs.tiles.CastTile;
 import com.android.systemui.qs.tiles.CellularTile;
+import com.android.systemui.qs.tiles.CPUInfoTile;
 import com.android.systemui.qs.tiles.CaffeineTile;
 import com.android.systemui.qs.tiles.ColorInversionTile;
 import com.android.systemui.qs.tiles.CompassTile;
@@ -128,6 +129,8 @@ public class QSFactoryImpl implements QSFactory {
                 return new NfcTile(mHost);
             case "sound":
                 return new SoundTile(mHost);
+            case "cpuinfo":
+                return new CPUInfoTile(mHost);
             case "caffeine":
                 return new CaffeineTile(mHost);
             case "reboot":
